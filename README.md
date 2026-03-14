@@ -47,7 +47,7 @@ npm run dev               # http://localhost:5173
 
 ---
 
-## 部署
+## 部署Deploy
 
 ### 后端 → Railway
 
