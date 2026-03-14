@@ -63,7 +63,7 @@ npm run dev               # http://localhost:5173
 | `ADMIN_PASSWORD` | 运营后台密码 |
 | `ADMIN_JWT_SECRET` | JWT 签名密钥（随机字符串）|
 
-4. 部署后 Railway 会分配域名，如 `https://contractchat-xxx.up.railway.app`
+4. 部署后 Railway 会分配域名，如 `https://contractchat-production.up.railway.app`
 
 ### 前端 → GitHub Pages
 
@@ -102,3 +102,4 @@ npm run dev               # http://localhost:5173
 | 数据库 | SQLite (better-sqlite3) | 零配置，Railway 持久化 Volume 即可，无需外部数据库 |
 | 后端部署 | Railway | 支持持久化存储，部署简单，免费额度够用 |
 | AI 路由 | 统一抽象层 | 同一接口支持 Claude / DeepSeek，后续扩展只需加一个 provider |
+
